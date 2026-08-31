@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		06E0A788D78240BDCB82991B /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20D6FC7377F288CB225A31D /* Word.swift */; };
 		15D9FD912409FAA7B8C8BBA5 /* IBMPlexMono-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF68883246B75C740A077DE5 /* IBMPlexMono-Italic.ttf */; };
+		25DAFFECAB09F6B5EC36E5BB /* StarterWordSeeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82F7FB880534DFD0223CDD3 /* StarterWordSeeder.swift */; };
 		2E1252D421A6995257AF8BD8 /* LanguageCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6442CBEB95985C3727EA0 /* LanguageCatalogTests.swift */; };
 		5369F1931F392BE6A9BBE452 /* DictionarySuggestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209B3AE91E16ED6FC3609B07 /* DictionarySuggestionTests.swift */; };
 		5B58B7799A0ED2790851C89C /* LanguageCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F929198CF29D96AC4CEA49FB /* LanguageCatalog.swift */; };
@@ -22,6 +23,7 @@
 		880E8C739EF38D2F382CC274 /* ko.json in Resources */ = {isa = PBXBuildFile; fileRef = 18E6CE9D9A3BF3C96513A4B5 /* ko.json */; };
 		8A70568A270CB12CD0917D83 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03628D0FCECF1D16A4B9127D /* Language.swift */; };
 		8E9B907A32EBDCD0F30811D4 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4FFCAD2CFCB4574E79337C /* SpeechService.swift */; };
+		B18A28D91ABC2A0A7089237E /* StarterWordSeederTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40F1153762EA473E6127FF8 /* StarterWordSeederTests.swift */; };
 		B8586BBFEAEFDD11E7173AED /* Languages.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C3F2B9DBEB34C8E0D31095C /* Languages.json */; };
 		B90E2333CB20B46AE244BD09 /* WordPersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975B02541DDB096B0D5902ED /* WordPersistenceTests.swift */; };
 		BAA10D066C94E7388F660A23 /* RecallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55FB9A4BE83E6136E1CEBB3 /* RecallApp.swift */; };
@@ -48,7 +50,7 @@
 		209B3AE91E16ED6FC3609B07 /* DictionarySuggestionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionarySuggestionTests.swift; sourceTree = "<group>"; };
 		21BE6358491D44DA950238D1 /* FONT-LICENSES.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FONT-LICENSES.txt"; sourceTree = "<group>"; };
 		24B3D145B6C3AD5BA448D7DF /* Fraunces-Italic[SOFT,WONK,opsz,wght].ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fraunces-Italic[SOFT,WONK,opsz,wght].ttf"; sourceTree = "<group>"; };
-		589D612419DE8AD691D1CD7C /* Recall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		589D612419DE8AD691D1CD7C /* Recall.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Recall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7DCFFF6657825023FD43FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5E2B64CD2B11603EBEE5934F /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		78FC58D14322AE6359A08AB1 /* Font+Fraunces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Fraunces.swift"; sourceTree = "<group>"; };
@@ -59,6 +61,8 @@
 		9C3F2B9DBEB34C8E0D31095C /* Languages.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Languages.json; sourceTree = "<group>"; };
 		9CC1A2146E65B8D00AAB0E37 /* FlipCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipCardView.swift; sourceTree = "<group>"; };
 		9CC57725A7360533DCA29723 /* IBMPlexMono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Regular.ttf"; sourceTree = "<group>"; };
+		B40F1153762EA473E6127FF8 /* StarterWordSeederTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterWordSeederTests.swift; sourceTree = "<group>"; };
+		B82F7FB880534DFD0223CDD3 /* StarterWordSeeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterWordSeeder.swift; sourceTree = "<group>"; };
 		BA3A51AB4312D59E82887B41 /* AddWordSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordSheet.swift; sourceTree = "<group>"; };
 		BD4FFCAD2CFCB4574E79337C /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 		CF68883246B75C740A077DE5 /* IBMPlexMono-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexMono-Italic.ttf"; sourceTree = "<group>"; };
@@ -137,6 +141,7 @@
 				209B3AE91E16ED6FC3609B07 /* DictionarySuggestionTests.swift */,
 				1AB6442CBEB95985C3727EA0 /* LanguageCatalogTests.swift */,
 				D210963E9A31F62FCA2B522E /* SpeechServiceTests.swift */,
+				B40F1153762EA473E6127FF8 /* StarterWordSeederTests.swift */,
 				975B02541DDB096B0D5902ED /* WordPersistenceTests.swift */,
 			);
 			name = RecallTests;
@@ -148,6 +153,7 @@
 			children = (
 				F929198CF29D96AC4CEA49FB /* LanguageCatalog.swift */,
 				BD4FFCAD2CFCB4574E79337C /* SpeechService.swift */,
+				B82F7FB880534DFD0223CDD3 /* StarterWordSeeder.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -238,6 +244,11 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8A1CA7FAB5EF7FFF7C657008 = {
+						DevelopmentTeam = "";
+					};
+				};
 			};
 			buildConfigurationList = F160EB2FBD6BB340B9EC6B11 /* Build configuration list for PBXProject "Recall" */;
 			developmentRegion = en;
@@ -284,6 +295,7 @@
 				5369F1931F392BE6A9BBE452 /* DictionarySuggestionTests.swift in Sources */,
 				2E1252D421A6995257AF8BD8 /* LanguageCatalogTests.swift in Sources */,
 				7409591C7D59262E24B039E4 /* SpeechServiceTests.swift in Sources */,
+				B18A28D91ABC2A0A7089237E /* StarterWordSeederTests.swift in Sources */,
 				B90E2333CB20B46AE244BD09 /* WordPersistenceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +313,7 @@
 				BAA10D066C94E7388F660A23 /* RecallApp.swift in Sources */,
 				65A296DA0767585FE7B74619 /* ReviewView.swift in Sources */,
 				8E9B907A32EBDCD0F30811D4 /* SpeechService.swift in Sources */,
+				25DAFFECAB09F6B5EC36E5BB /* StarterWordSeeder.swift in Sources */,
 				06E0A788D78240BDCB82991B /* Word.swift in Sources */,
 				F22A532989D817006425F70F /* WordListView.swift in Sources */,
 			);
@@ -478,7 +491,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3R77HYKAAH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Sources/Recall/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -498,7 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3R77HYKAAH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Sources/Recall/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (

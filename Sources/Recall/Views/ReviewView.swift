@@ -4,6 +4,7 @@ import SwiftData
 /// The one main screen: a language picker, the flip card showing where you are in
 /// review, and an add button. Everything else (the full word list) is one tap away.
 struct ReviewView: View {
+    @Environment(\.modelContext) private var modelContext
     @Query(sort: \Word.dateAdded) private var allWords: [Word]
     @State private var selectedLanguageCode: String
     @State private var currentIndex = 0
@@ -68,6 +69,7 @@ struct ReviewView: View {
                 currentIndex = 0
                 isFlipped = false
             }
+            .task { StarterWordSeeder.seedIfNeeded(context: modelContext) }
         }
     }
 

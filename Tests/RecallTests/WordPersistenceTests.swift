@@ -22,9 +22,9 @@ final class WordPersistenceTests: XCTestCase {
         XCTAssertEqual(fetched.first?.languageCode, "zh")
     }
 
-    func testReviewDeckStartsEmpty() throws {
-        // The review deck only ever contains words the user explicitly saved — nothing
-        // is pre-seeded from the bundled dictionary at first launch.
+    func testFreshModelContextHasNoWords() throws {
+        // A bare persistence layer starts empty — seeding, when it happens, is an
+        // explicit act (see StarterWordSeederTests), not implicit SwiftData behavior.
         let context = try makeInMemoryContext()
         let fetched = try context.fetch(FetchDescriptor<Word>())
         XCTAssertTrue(fetched.isEmpty)
