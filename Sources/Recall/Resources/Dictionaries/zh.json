@@ -1,0 +1,21 @@
+[
+  { "character": "你好", "pronunciation": "nǐ hǎo", "meaning": "hello" },
+  { "character": "谢谢", "pronunciation": "xièxie", "meaning": "thank you" },
+  { "character": "再见", "pronunciation": "zàijiàn", "meaning": "goodbye" },
+  { "character": "朋友", "pronunciation": "péngyou", "meaning": "friend" },
+  { "character": "学习", "pronunciation": "xuéxí", "meaning": "to study" },
+  { "character": "猫", "pronunciation": "māo", "meaning": "cat" },
+  { "character": "狗", "pronunciation": "gǒu", "meaning": "dog" },
+  { "character": "水", "pronunciation": "shuǐ", "meaning": "water" },
+  { "character": "老师", "pronunciation": "lǎoshī", "meaning": "teacher" },
+  { "character": "学生", "pronunciation": "xuésheng", "meaning": "student" },
+  { "character": "时间", "pronunciation": "shíjiān", "meaning": "time" },
+  { "character": "家", "pronunciation": "jiā", "meaning": "home" },
+  { "character": "吃", "pronunciation": "chī", "meaning": "to eat" },
+  { "character": "喝", "pronunciation": "hē", "meaning": "to drink" },
+  { "character": "爱", "pronunciation": "ài", "meaning": "love" },
+  { "character": "书", "pronunciation": "shū", "meaning": "book" },
+  { "character": "电影", "pronunciation": "diànyǐng", "meaning": "movie" },
+  { "character": "音乐", "pronunciation": "yīnyuè", "meaning": "music" },
+  { "character": "天气", "pronunciation": "tiānqì", "meaning": "weather" }
+]

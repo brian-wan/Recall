@@ -1,0 +1,21 @@
+[
+  { "character": "안녕하세요", "pronunciation": "annyeonghaseyo", "meaning": "hello" },
+  { "character": "감사합니다", "pronunciation": "gamsahamnida", "meaning": "thank you" },
+  { "character": "친구", "pronunciation": "chingu", "meaning": "friend" },
+  { "character": "사랑", "pronunciation": "sarang", "meaning": "love" },
+  { "character": "공부하다", "pronunciation": "gongbuhada", "meaning": "to study" },
+  { "character": "강아지", "pronunciation": "gangaji", "meaning": "puppy" },
+  { "character": "고양이", "pronunciation": "goyangi", "meaning": "cat" },
+  { "character": "학교", "pronunciation": "hakgyo", "meaning": "school" },
+  { "character": "선생님", "pronunciation": "seonsaengnim", "meaning": "teacher" },
+  { "character": "시간", "pronunciation": "sigan", "meaning": "time" },
+  { "character": "물", "pronunciation": "mul", "meaning": "water" },
+  { "character": "집", "pronunciation": "jip", "meaning": "house" },
+  { "character": "먹다", "pronunciation": "meokda", "meaning": "to eat" },
+  { "character": "마시다", "pronunciation": "masida", "meaning": "to drink" },
+  { "character": "책", "pronunciation": "chaek", "meaning": "book" },
+  { "character": "영화", "pronunciation": "yeonghwa", "meaning": "movie" },
+  { "character": "음악", "pronunciation": "eumak", "meaning": "music" },
+  { "character": "날씨", "pronunciation": "nalssi", "meaning": "weather" },
+  { "character": "좋아하다", "pronunciation": "joahada", "meaning": "to like" }
+]

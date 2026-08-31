@@ -1,0 +1,16 @@
+[
+  {
+    "code": "zh",
+    "displayName": "Mandarin Chinese",
+    "nativeName": "中文",
+    "voiceLocale": "zh-CN",
+    "dictionaryFile": "zh.json"
+  },
+  {
+    "code": "ko",
+    "displayName": "Korean",
+    "nativeName": "한국어",
+    "voiceLocale": "ko-KR",
+    "dictionaryFile": "ko.json"
+  }
+]
