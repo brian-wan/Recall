@@ -49,6 +49,7 @@ struct ReviewView: View {
                     .padding(.bottom, 18)
             }
             .padding(.horizontal, 18)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Palette.bg)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) { languageMenu }

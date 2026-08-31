@@ -48,7 +48,7 @@
 		209B3AE91E16ED6FC3609B07 /* DictionarySuggestionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionarySuggestionTests.swift; sourceTree = "<group>"; };
 		21BE6358491D44DA950238D1 /* FONT-LICENSES.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "FONT-LICENSES.txt"; sourceTree = "<group>"; };
 		24B3D145B6C3AD5BA448D7DF /* Fraunces-Italic[SOFT,WONK,opsz,wght].ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fraunces-Italic[SOFT,WONK,opsz,wght].ttf"; sourceTree = "<group>"; };
-		589D612419DE8AD691D1CD7C /* Recall.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Recall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		589D612419DE8AD691D1CD7C /* Recall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7DCFFF6657825023FD43FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		5E2B64CD2B11603EBEE5934F /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		78FC58D14322AE6359A08AB1 /* Font+Fraunces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Fraunces.swift"; sourceTree = "<group>"; };
@@ -238,11 +238,6 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
-				TargetAttributes = {
-					8A1CA7FAB5EF7FFF7C657008 = {
-						DevelopmentTeam = "";
-					};
-				};
 			};
 			buildConfigurationList = F160EB2FBD6BB340B9EC6B11 /* Build configuration list for PBXProject "Recall" */;
 			developmentRegion = en;
@@ -483,7 +478,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3R77HYKAAH;
 				INFOPLIST_FILE = Sources/Recall/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -503,7 +498,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3R77HYKAAH;
 				INFOPLIST_FILE = Sources/Recall/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
